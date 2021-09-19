@@ -16,7 +16,7 @@ function MobileAccordion() {
               <Card.Body>
                 <Container>
                   <p>Morbi eget efficitur turpis.Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a.Nullam non eleifend justo, a ullamcorper turpis.Cras vehicula pharetra lectus non maximus.Sed condimentum mattis rhoncus.</p>
-                  <img className="tab-image lg=1" src="images/tab-images/tab-1.jpg" />
+                  <img className="tab-image lg=1" src="images/tab-images/tab-1.jpg" alt="old tv" />
                   <p className="tab-social-media text-center text-md-start">SHARE <i className="fab fa-facebook-f"></i><i className="fab fa-twitter"></i></p>
                 </Container>
               </Card.Body>
@@ -31,7 +31,7 @@ function MobileAccordion() {
               <Card.Body>
                 <Container>
                   <p>Morbi eget efficitur turpis.Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a.Nullam non eleifend justo, a ullamcorper turpis.Cras vehicula pharetra lectus non maximus.Sed condimentum mattis rhoncus.</p>
-                  <img className="tab-image" src="images/tab-images/tab-2.jpg" />
+                  <img className="tab-image" src="images/tab-images/tab-2.jpg" alt="red wall with many picutres" />
                   <p className="tab-social-media text-center text-md-start">SHARE <i className="fab fa-facebook-f"></i><i className="fab fa-twitter"></i></p>
                 </Container>
               </Card.Body>
@@ -45,7 +45,7 @@ function MobileAccordion() {
             <Accordion.Collapse eventKey="2">
               <Card.Body>
                 <p>Morbi eget efficitur turpis.Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a.Nullam non eleifend justo, a ullamcorper turpis.Cras vehicula pharetra lectus non maximus.Sed condimentum mattis rhoncus.</p>
-                <img className="tab-image" src="images/tab-images/tab-3.jpg" />
+                <img className="tab-image" src="images/tab-images/tab-3.jpg" alt="window with a crack" />
                 <p className="tab-social-media text-center text-md-start">SHARE <i className="fab fa-facebook-f"></i><i className="fab fa-twitter"></i></p>
               </Card.Body>
             </Accordion.Collapse>

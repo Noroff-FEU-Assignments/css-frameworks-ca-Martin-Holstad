@@ -11,7 +11,7 @@ function Cards() {
       <Row className="g-4">
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-1.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-1.jpg" alt="old tv next to a turned on lamp" />
             <Card.Body>
               <Container >
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -30,7 +30,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-2.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-2.jpg" alt="green old camera" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -49,7 +49,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-3.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-3.jpg" alt="old tv" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -68,7 +68,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-4.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-4.jpg" alt="old wooden camera" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -87,7 +87,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-5.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-5.jpg" alt="rusty tv frame" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -106,7 +106,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-6.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-6.jpg" alt="pink old camera" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -125,7 +125,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-7.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-7.jpg" alt="old movies camera" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
@@ -144,7 +144,7 @@ function Cards() {
 
         <Col md={6} lg={4} xl={3}>
           <Card className="news-card">
-            <Card.Img variant="top" src="images/news-images/news-8.jpg" />
+            <Card.Img variant="top" src="images/news-images/news-8.jpg" alt="turntable" />
             <Card.Body>
               <Container>
                 <Card.Title>Nunc porttitor vel</Card.Title>
