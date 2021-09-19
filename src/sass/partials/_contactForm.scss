@@ -1,0 +1,25 @@
+.contact-form-container {
+  background-color: $colour-background;
+  box-shadow: $shadow;
+
+  & textarea {
+    height: 200px;
+    resize: none;
+  }
+
+  & .btn {
+    background-color: $colour-secondary;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .contact-form-container {
+    min-width: 364px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contact-form-section {
+    padding: 0px;
+  }
+}

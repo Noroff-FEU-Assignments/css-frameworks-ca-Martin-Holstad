@@ -1,0 +1,23 @@
+#logo {
+  color: $colour-primary;
+  font-family: $headings-font-family;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 50px;
+}
+
+
+.news-header {
+  margin-top: 60px;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  font-family: $font-family-base;
+}
+
+p {
+  margin-top: 20px;
+  color: $colour-secondary;
+}

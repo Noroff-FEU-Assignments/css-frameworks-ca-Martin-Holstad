@@ -1,0 +1,45 @@
+.carousel {
+  overflow: hidden;
+}
+
+.carousel img {
+  max-height: 650px;
+  width: 100%;
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 10px;
+
+  & li {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    box-shadow: $shadow;
+    border-radius: 2px;
+  }
+
+  & .active {
+    background-color: $colour-primary;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel img {
+    width: fit-content;
+    height: 350px;
+    margin-left: -12rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .carousel img {
+    margin-left: -15.5rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .carousel img {
+    margin-left: -25rem;
+  }
+}

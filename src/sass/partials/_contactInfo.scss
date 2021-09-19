@@ -1,0 +1,13 @@
+.contact-info-container {
+  padding-top: 100px;
+
+  & p {
+    max-width: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-info-container {
+    padding-top: 15px;
+  }
+}

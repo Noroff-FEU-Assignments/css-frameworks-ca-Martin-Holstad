@@ -1,0 +1,27 @@
+.accordion {
+  box-shadow: $shadow;
+  border-radius: 20px !important;
+
+  & .accordion-card-one {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+  }
+
+  & .accordion-card-three {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+
+  & .card-header {
+    color: $colour-primary;
+    border: none !important;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 30px;
+  }
+
+  & .card-body {
+    background: $radial-background;
+    border-top: 1px solid $colour-primary;
+  }
+}
