@@ -1,0 +1,30 @@
+header {
+  background-color: $colour-background;
+  height: 60px;
+
+  & .btn {
+    background-color: $colour-primary;
+
+    &:hover {
+      @extend .btn;
+    }
+  }
+}
+
+.navbar-collapse {
+  box-shadow: none;
+}
+
+.navbar {
+  background-color: $colour-background;
+
+  & .active {
+    background-color: #fff;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    box-shadow: $shadow;
+  }
+}

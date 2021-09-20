@@ -1,0 +1,38 @@
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+$colour-background: #efefef;
+$colour-black: #0a0a0a;
+
+$headings-color: $colour-primary;
+$radial-background: radial-gradient(circle at center, #ffffff, #e5e5e5);
+$font-family-base: "Lato", serif;
+$headings-font-family: "Playfair Display", sans-serif;
+$enable-negative-margins: "true";
+$shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+$form-addon-colour: #c7c7c7;
+$form-label-color: $colour-secondary;
+$form-check-input-width: 2em;
+$form-check-input-checked-bg-image: none;
+$form-check-input-focus-box-shadow: none;
+
+$nav-link-hover-color: $colour-primary;
+
+$input-plaintext-color: $colour-secondary;
+$input-group-addon-color: #fff;
+$input-group-addon-bg: $form-addon-colour;
+$input-focus-border-color: none;
+$input-focus-box-shadow: none;
+
+$pagination-focus-color: $colour-primary;
+$pagination-hover-color: $colour-primary;
+$pagination-focus-box-shadow: none;
+
+$btn-border-width: 0px;
+$input-btn-focus-box-shadow: none !important;
+$news-button-colour: linear-gradient(90deg,$colour-primary 85%,$colour-secondary 15%);
+$news-button-mobile-colour: linear-gradient(90deg,$colour-primary 92%,$colour-secondary 8%);
+
+$component-active-bg: $colour-primary;
+
+@import "~bootstrap/scss/bootstrap";

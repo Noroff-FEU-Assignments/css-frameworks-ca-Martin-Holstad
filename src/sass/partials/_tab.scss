@@ -1,0 +1,51 @@
+.nav-tabs a {
+  color: $colour-primary;
+  width: 100px;
+  text-align: center;
+  margin-left: -1px;
+  margin-top: 50px;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.tab-pane {
+  background-color: white;
+  border-radius: 0px 20px 20px 20px;
+  margin-top: -18px;
+  padding: 10px 40px 0px 40px;
+  height: 300px;
+  box-shadow: $shadow;
+}
+
+.tab-image {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.tab-social-media {
+  margin-top: 7rem;
+  color: black;
+
+  & i {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .tab-social-media {
+    margin-top: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .tab-social-media {
+    margin-top: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .tab-social-media {
+    margin-top: 1rem;
+  }
+}
